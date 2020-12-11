@@ -20,7 +20,7 @@ class QuakeFetchr{
 
     init {
         val retrofit: Retrofit = Retrofit.Builder()
-            .baseUrl("https://earthquake.usgs.gov/fdsnws/event/1/")
+            .baseUrl("https://earthquake.usgs.gov/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
